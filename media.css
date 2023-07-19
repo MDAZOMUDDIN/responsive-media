@@ -1,0 +1,16 @@
+.azim{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.azom{
+    border: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+
+}
+@media screen and (max-width:576px){
+    .azim{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
